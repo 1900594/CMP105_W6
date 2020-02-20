@@ -38,9 +38,9 @@ void Gravity::handleInput(float dt)
 
 
 
-	if (input->isKeyDown(sf::Mouse::Left))
+	if (input->isKeyDown(sf::Keyboard::Left))
 	{
-		setPosition(input->getMouseX(), input->getMouseY());
+		setPosition(input->getMouseX(),input->getMouseY());
 	}
 
 
