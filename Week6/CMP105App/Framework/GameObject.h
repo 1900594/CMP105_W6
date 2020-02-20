@@ -49,4 +49,6 @@ protected:
 
 	// input component
 	Input* input;
+
+	
 };
